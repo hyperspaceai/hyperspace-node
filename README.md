@@ -1,11 +1,11 @@
-# Hyperspace Desktop App: Revolutionize AI Accessibility.
-This desktop application aims to enable seamless participation in a decentralized AI network, empowering users with limited GPU resources to contribute to and benefit from AI innovations
+# Hyperspace Node: Revolutionize AI Accessibility.
+The world’s first decentralized AI network for Mistral7B-based model on macOS.
 
-Download the Alpha Release: The Hyperspace Desktop App is available exclusively for macOS users in its early alpha stages. Embark on this pioneering journey by downloading the app and be among the first to experience the forefront of decentralized AI computing.
+Download the Alpha Release: The Hyperspace node is available exclusively for macOS users in its early alpha stages. Embark on this pioneering journey by downloading the app and be among the first to experience the forefront of decentralized AI computing.
 
 As an alpha version, the app is in its initial development phase and we welcome user feedback to enhance its functionality.
 
-### How to Install and Run Hyperspace App
+### How to Install and Run Hyperspace Node
 `Important Notice:` Our application, Hyperspace, is currently in the process of obtaining code signing certification. In the meantime, macOS might apply certain security attributes that prevent the app from running properly. Below are the steps to assist you in installing and running Hyperspace.
 
 ### Step 1: Removing Extended Attributes
