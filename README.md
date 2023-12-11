@@ -1,7 +1,7 @@
 # Hyperspace Node: Revolutionize AI Accessibility.
-The world’s first decentralized AI network for Mistral7B-based model on macOS Sillicon based.
+The world’s first decentralized AI network for Mistral7B-based model on macOS Silicon-based.
 
-Download the Alpha Release: The Hyperspace node is available exclusively for macOS Sillicon users in its early alpha stages. Embark on this pioneering journey by downloading the app and be among the first to experience the forefront of decentralized AI computing.
+Download the Alpha Release: The Hyperspace node is available exclusively for macOS silicon users in its early alpha stages. Embark on this pioneering journey by downloading the app and be among the first to experience the forefront of decentralized AI computing.
 
 As an alpha version, the app is in its initial development phase and we welcome user feedback to enhance its functionality.
 
