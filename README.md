@@ -1,52 +1,68 @@
-# Hyperspace Node: Revolutionize AI Accessibility.
-The world’s first decentralized AI network for Mistral7B-based model on macOS Silicon-based.
+# aiOS: Revolutionize AI Accessibility.
 
-Download the Alpha Release: The Hyperspace node is available exclusively for macOS silicon users in its early alpha stages. Embark on this pioneering journey by downloading the app and be among the first to experience the forefront of decentralized AI computing.
+![aiOS Header](assets/hero.png)
+
+**The world’s first decentralized AI network for Mistral7B-based model.**
+
+Download the Alpha Release: The Hyperspace node is available for Windows, Linux, and macOS users in its early alpha stages. Embark on this pioneering journey by downloading the app and be among the first to experience the forefront of decentralized AI computing.
 
 As an alpha version, the app is in its initial development phase and we welcome user feedback to enhance its functionality.
 
-### How to Install and Run Hyperspace Node
-`Important Notice:` Our application, Hyperspace, is currently in the process of obtaining code signing certification. In the meantime, macOS might apply certain security attributes that prevent the app from running properly. Below are the steps to assist you in installing and running Hyperspace.
+## Available Platforms
 
-### Step 1: Removing Extended Attributes
+- macOS (Intel x86_64 and Apple Silicon)
+- Windows (x86_64)
+- Linux (Ubuntu, x86_64, AppImage format)
 
-macOS may mark the downloaded Hyperspace app with extended attributes that can prevent it from opening. To remove these attributes:
+## Download
 
-1. Download and move the Hyperspace app to your Applications folder.
-2. Open the Terminal app (found in the Utilities folder within your Applications folder).
-3. In the Terminal, type the following command and press Enter:
+All downloads for macOS and Windows are available from [aiOS™ website](https://aios.network/)
+
+For Linux, the AppImage is available in the GitHub Releases.
+
+## How to Install and Run aiOS Node
+
+### macOS
+
+To install the Hyperspace Node on macOS:
+
+1. Download the macOS installer for [Apple Silicon](https://aios.network/dl/mac) or [Apple Intel](https://aios.network/dl/mac-intel).
+2. Open the downloaded DMG file.
+3. Drag the Hyperspace application to your Applications folder.
+4. Launch the Hyperspace Node application from the Applications folder.
+
+### Windows
+
+> [!IMPORTANT]
+>
+> Our Windows application is currently in the process of obtaining code signing certification. Users may encounter security warnings or errors when attempting to run the application. We are actively working on resolving this issue
+
+To install the Hyperspace Node on Windows:
+
+1. Download the Windows installer for [x86_64](https://aios.network/dl/win).
+2. Run the installer and follow the on-screen instructions.
+3. Launch the Hyperspace Node application.
+
+### Linux (Ubuntu)
+
+To install the Hyperspace Node on Linux (Ubuntu) using the AppImage:
+
+1. Download the latest AppImage from [Releases](https://github.com/hyperspaceai/hyperspace-node/releases).
+2. Open a terminal and navigate to the directory where the AppImage is located.
+3. Make the AppImage executable by running the following command:
 
 ```bash
-xattr -cr /Applications/Hyperspace.app/
+chmod +x Hyperspace-x86\_64.AppImage
 ```
 
-### Step 2: Opening the Application
-
-After performing the above step, you should be able to open the Hyperspace app normally. If you still encounter any warnings or issues:
-
-### Use Gatekeeper Settings (Optional)
-
-If the app still doesn't open, you might need to temporarily disable Gatekeeper:
-
-1. In Terminal, type the following command and press Enter:
+4. Run the AppImage:
 
 ```bash
-sudo spctl --master-disable
+./Hyperspace-x86\_64.AppImage
 ```
-
-2. You will be prompted to enter your password.
-3. After disabling Gatekeeper, try opening the app again.
-4. Once the app is running, we strongly recommend re-enabling Gatekeeper for your security. Use this command:
-
-```bash
-sudo spctl --master-enable
-```
-
 
 ## Contact Us
-For any issues, concerns, or questions about this process, please reach out to us on twitter.
 
-**Disclaimer:** Please be aware that these instructions modify system settings and the attributes of the Hyperspace app. Proceed only if you trust the source of the application. We are not responsible for any harm or loss resulting from these actions.
+![Contact Banner](assets/contact.png)
 
-
-
+For any issues, concerns, or questions about this process, please reach out to us on [X (formerly Twitter)](https://twitter.com/HyperspaceAI).
