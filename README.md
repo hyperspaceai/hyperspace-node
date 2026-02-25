@@ -124,6 +124,7 @@ The binary is called `hyperspace` (aliased as `aios-cli` for backward compatibil
 | `hyperspace system-info` | Display system specs, GPU, VRAM, recommended tier |
 | `hyperspace version` | Show version (`--check-update` to check for new) |
 | `hyperspace update` | Check for and install updates (`--check` for dry run) |
+| `hyperspace hive listen` | Stream live agent events (polls every 5s) |
 
 ### Start Options
 
@@ -186,20 +187,18 @@ hyperspace chat                                                # Agent chat mode
 | `hyperspace identity export` | Export private key, public key, peer ID |
 | `hyperspace identity export --json` | Export as JSON |
 | `hyperspace identity export -o key.json` | Export to file |
+| `hyperspace hive whoami` | Display agent identity and connection status |
+| `hyperspace hive login -k <base58>` | Import identity from Ed25519 private key |
+| `hyperspace hive import-keys <path>` | Import identity from key file |
 
-### Network (Hive)
+### Configuration
 
 | Command | Description |
 |---------|-------------|
-| `hyperspace hive connect` | Connect to network (alias for `start`) |
-| `hyperspace hive disconnect` | Disconnect (alias for `kill`) |
-| `hyperspace hive whoami` | Display agent identity |
-| `hyperspace hive points` | Show accumulated points |
 | `hyperspace hive select-tier --auto` | Auto-detect tier from GPU |
-| `hyperspace hive allocate --mode power` | Set allocation mode (power / chill) |
-| `hyperspace hive listen` | Stream live network events |
-| `hyperspace hive login -k <base58>` | Authenticate with Ed25519 key |
-| `hyperspace hive import-keys <path>` | Import keys from file |
+| `hyperspace hive select-tier --tier <n>` | Manually set compute tier |
+| `hyperspace hive allocate --mode power` | Maximum earnings, higher resource usage |
+| `hyperspace hive allocate --mode chill` | Lower resource usage, reduced earnings |
 
 ### Proxy
 
@@ -308,7 +307,7 @@ Earned by serving real requests -- inference queries, proxy traffic, storage ope
 | **power** | Maximum earnings, higher resource usage (1.5x multiplier) |
 | **chill** | Lower resource usage, reduced earnings (1.0x multiplier) |
 
-Set with: `hyperspace hive allocate --mode power`
+Set with `hyperspace hive allocate --mode power` or `--mode chill`. Check current points with `hyperspace status`.
 
 ---
 
