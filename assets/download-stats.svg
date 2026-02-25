@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="830" viewBox="0 0 840 830">
+  <!-- Background -->
+  <rect width="840" height="830" rx="12" ry="12" fill="#0d1117"/>
+  <!-- Inner border -->
+  <rect x="0.5" y="0.5" width="839" height="829" rx="12" ry="12" fill="none" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="420" y="42" text-anchor="middle" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:20px;font-weight:700;fill:#e6edf3;letter-spacing:0.3px;">Download Statistics</text>
+  <!-- Subtitle -->
+  <text x="420" y="64" text-anchor="middle" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:400;fill:#8b949e;">3.6M+ total downloads across all clients</text>
+
+  <!-- Subtle vertical grid lines in bar area (x=150 to x=670) -->
+  <line x1="280" y1="90" x2="280" y2="780" stroke="#161b22" stroke-width="1"/>
+  <line x1="410" y1="90" x2="410" y2="780" stroke="#161b22" stroke-width="1"/>
+  <line x1="540" y1="90" x2="540" y2="780" stroke="#161b22" stroke-width="1"/>
+  <line x1="670" y1="90" x2="670" y2="780" stroke="#161b22" stroke-width="1"/>
+
+  <!-- ============================================ -->
+  <!-- SECTION 1: Desktop App (hyperspace-node)     -->
+  <!-- ============================================ -->
+  <!-- Section header with green dot indicator -->
+  <circle cx="46" cy="100" r="4" fill="#238636"/>
+  <text x="58" y="104" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:13px;font-weight:600;fill:#e6edf3;">Desktop App</text>
+  <text x="156" y="104" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:13px;font-weight:400;fill:#6e7681;">(hyperspace-node)</text>
+  <line x1="40" y1="114" x2="800" y2="114" stroke="#21262d" stroke-width="1"/>
+
+  <!--
+    Desktop bars: max = 333,134 maps to barMaxWidth = 520px
+    barX = 150, bar area ends at 670
+    Labels right-aligned at x=138, count labels after bar end + 10px
+  -->
+
+  <!-- v0.2.1: 333,134 -> 520px -->
+  <text x="138" y="143" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;fill:#c9d1d9;">v0.2.1</text>
+  <rect x="150" y="131" width="520" height="18" rx="4" ry="4" fill="#238636"/>
+  <rect x="150" y="131" width="4" height="18" fill="#238636"/>
+  <text x="680" y="144" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:11px;font-weight:600;fill:#7ee787;">333,134</text>
+
+  <!-- v0.2.3: 269,794 -> 421px -->
+  <text x="138" y="170" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;fill:#c9d1d9;">v0.2.3</text>
+  <rect x="150" y="158" width="421" height="18" rx="4" ry="4" fill="#238636"/>
+  <rect x="150" y="158" width="4" height="18" fill="#238636"/>
+  <text x="581" y="171" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:11px;font-weight:600;fill:#7ee787;">269,794</text>
+
+  <!-- v0.1.4: 56,604 -> 88px -->
+  <text x="138" y="197" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;fill:#c9d1d9;">v0.1.4</text>
+  <rect x="150" y="185" width="88" height="18" rx="4" ry="4" fill="#238636"/>
+  <rect x="150" y="185" width="4" height="18" fill="#238636"/>
+  <text x="248" y="198" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:11px;font-weight:600;fill:#7ee787;">56,604</text>
+
+  <!-- v0.1.3: 48,588 -> 76px -->
+  <text x="138" y="224" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;fill:#c9d1d9;">v0.1.3</text>
+  <rect x="150" y="212" width="76" height="18" rx="4" ry="4" fill="#238636"/>
+  <rect x="150" y="212" width="4" height="18" fill="#238636"/>
+  <text x="236" y="225" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:11px;font-weight:600;fill:#7ee787;">48,588</text>
+
+  <!-- v0.1.5: 47,376 -> 74px -->
+  <text x="138" y="251" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;fill:#c9d1d9;">v0.1.5</text>
+  <rect x="150" y="239" width="74" height="18" rx="4" ry="4" fill="#238636"/>
+  <rect x="150" y="239" width="4" height="18" fill="#238636"/>
+  <text x="234" y="252" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:11px;font-weight:600;fill:#7ee787;">47,376</text>
+
+  <!-- v0.0.8: 36,756 -> 57px -->
+  <text x="138" y="278" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;fill:#c9d1d9;">v0.0.8</text>
+  <rect x="150" y="266" width="57" height="18" rx="4" ry="4" fill="#238636"/>
+  <rect x="150" y="266" width="4" height="18" fill="#238636"/>
+  <text x="217" y="279" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:11px;font-weight:600;fill:#7ee787;">36,756</text>
+
+  <!-- v0.1.2: 32,470 -> 51px -->
+  <text x="138" y="305" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;fill:#c9d1d9;">v0.1.2</text>
+  <rect x="150" y="293" width="51" height="18" rx="4" ry="4" fill="#238636"/>
+  <rect x="150" y="293" width="4" height="18" fill="#238636"/>
+  <text x="211" y="306" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:11px;font-weight:600;fill:#7ee787;">32,470</text>
+
+  <!-- v0.0.9: 28,136 -> 44px -->
+  <text x="138" y="332" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;fill:#c9d1d9;">v0.0.9</text>
+  <rect x="150" y="320" width="44" height="18" rx="4" ry="4" fill="#238636"/>
+  <rect x="150" y="320" width="4" height="18" fill="#238636"/>
+  <text x="204" y="333" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:11px;font-weight:600;fill:#7ee787;">28,136</text>
+
+  <!-- Desktop TOTAL -->
+  <line x1="150" y1="348" x2="790" y2="348" stroke="#21262d" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="138" y="371" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:700;fill:#e6edf3;">TOTAL</text>
+  <rect x="150" y="358" width="520" height="20" rx="4" ry="4" fill="#2ea043" opacity="0.55"/>
+  <rect x="150" y="358" width="4" height="20" fill="#2ea043" opacity="0.55"/>
+  <text x="680" y="372" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:700;fill:#7ee787;">911,563</text>
+
+  <!-- ============================================ -->
+  <!-- SECTION 2: CLI (aios-cli)                    -->
+  <!-- ============================================ -->
+  <circle cx="46" cy="418" r="4" fill="#1f6feb"/>
+  <text x="58" y="422" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:13px;font-weight:600;fill:#e6edf3;">CLI</text>
+  <text x="80" y="422" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:13px;font-weight:400;fill:#6e7681;">(aios-cli)</text>
+  <line x1="40" y1="432" x2="800" y2="432" stroke="#21262d" stroke-width="1"/>
+
+  <!--
+    CLI bars: max = 2,126,422 maps to barMaxWidth = 520px
+    607,887 / 2,126,422 * 520 = 149
+    1,504 / 2,126,422 * 520 = 0.37 -> min 6px
+  -->
+
+  <!-- v0.1.16: 2,126,422 -> 520px -->
+  <text x="138" y="461" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;fill:#c9d1d9;">v0.1.16</text>
+  <rect x="150" y="449" width="520" height="18" rx="4" ry="4" fill="#1f6feb"/>
+  <rect x="150" y="449" width="4" height="18" fill="#1f6feb"/>
+  <text x="680" y="462" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:11px;font-weight:600;fill:#58a6ff;">2,126,422</text>
+
+  <!-- v0.1.6: 607,887 -> 149px -->
+  <text x="138" y="488" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;fill:#c9d1d9;">v0.1.6</text>
+  <rect x="150" y="476" width="149" height="18" rx="4" ry="4" fill="#1f6feb"/>
+  <rect x="150" y="476" width="4" height="18" fill="#1f6feb"/>
+  <text x="309" y="489" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:11px;font-weight:600;fill:#58a6ff;">607,887</text>
+
+  <!-- v2.0.10: 1,504 -> 6px min -->
+  <text x="138" y="515" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;fill:#c9d1d9;">v2.0.10</text>
+  <rect x="150" y="503" width="6" height="18" rx="3" ry="3" fill="#1f6feb"/>
+  <text x="166" y="516" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:11px;font-weight:600;fill:#58a6ff;">1,504</text>
+
+  <!-- v0.1.0: 1,270 -> 6px min -->
+  <text x="138" y="542" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;fill:#c9d1d9;">v0.1.0</text>
+  <rect x="150" y="530" width="6" height="18" rx="3" ry="3" fill="#1f6feb"/>
+  <text x="166" y="543" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:11px;font-weight:600;fill:#58a6ff;">1,270</text>
+
+  <!-- v2.0.6: 918 -> 5px min -->
+  <text x="138" y="569" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;fill:#c9d1d9;">v2.0.6</text>
+  <rect x="150" y="557" width="5" height="18" rx="2.5" ry="2.5" fill="#1f6feb"/>
+  <text x="165" y="570" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:11px;font-weight:600;fill:#58a6ff;">918</text>
+
+  <!-- v2.0.1: 688 -> 4px min -->
+  <text x="138" y="596" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:500;fill:#c9d1d9;">v2.0.1</text>
+  <rect x="150" y="584" width="4" height="18" rx="2" ry="2" fill="#1f6feb"/>
+  <text x="164" y="597" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:11px;font-weight:600;fill:#58a6ff;">688</text>
+
+  <!-- CLI TOTAL -->
+  <line x1="150" y1="612" x2="790" y2="612" stroke="#21262d" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="138" y="635" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:700;fill:#e6edf3;">TOTAL</text>
+  <rect x="150" y="622" width="520" height="20" rx="4" ry="4" fill="#388bfd" opacity="0.55"/>
+  <rect x="150" y="622" width="4" height="20" fill="#388bfd" opacity="0.55"/>
+  <text x="680" y="636" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:12px;font-weight:700;fill:#58a6ff;">2,741,794</text>
+
+  <!-- ============================================ -->
+  <!-- GRAND TOTAL                                  -->
+  <!-- ============================================ -->
+  <line x1="40" y1="675" x2="800" y2="675" stroke="#30363d" stroke-width="1"/>
+  <line x1="40" y1="676" x2="800" y2="676" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Grand total label and bar -->
+  <text x="138" y="710" text-anchor="end" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:13px;font-weight:700;fill:#f0883e;">GRAND TOTAL</text>
+  <rect x="150" y="696" width="520" height="24" rx="4" ry="4" fill="#f0883e" opacity="0.8"/>
+  <rect x="150" y="696" width="4" height="24" fill="#f0883e" opacity="0.8"/>
+  <!-- Highlight shimmer on grand total bar -->
+  <rect x="150" y="696" width="520" height="4" rx="2" ry="2" fill="#f0883e" opacity="0.25"/>
+  <text x="680" y="713" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:13px;font-weight:700;fill:#f0883e;">3,653,357</text>
+
+  <!-- Legend -->
+  <rect x="290" y="755" width="10" height="10" rx="2" ry="2" fill="#238636"/>
+  <text x="306" y="764" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:10px;font-weight:500;fill:#8b949e;">Desktop App</text>
+  <rect x="400" y="755" width="10" height="10" rx="2" ry="2" fill="#1f6feb"/>
+  <text x="416" y="764" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:10px;font-weight:500;fill:#8b949e;">CLI</text>
+  <rect x="458" y="755" width="10" height="10" rx="2" ry="2" fill="#f0883e"/>
+  <text x="474" y="764" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:10px;font-weight:500;fill:#8b949e;">Combined</text>
+
+  <!-- Footer -->
+  <text x="420" y="795" text-anchor="middle" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:10px;font-weight:400;fill:#484f58;">Data from GitHub Releases API</text>
+</svg>
